@@ -70,7 +70,7 @@ internal enum Components {
             ///
             ///
             /// - Remark: Generated from `#/components/schemas/Greeting/audio`.
-            internal var audio: OpenAPIRuntime.Base64EncodedData?
+            internal var audio: Swift.String?
             /// Creates a new `Greeting`.
             ///
             /// - Parameters:
@@ -78,7 +78,7 @@ internal enum Components {
             ///   - audio: Base64-encoded audio bytes. This must be in the format specified by the 
             internal init(
                 message: Swift.String,
-                audio: OpenAPIRuntime.Base64EncodedData? = nil
+                audio: Swift.String? = nil
             ) {
                 self.message = message
                 self.audio = audio
